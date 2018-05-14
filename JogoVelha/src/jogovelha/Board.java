@@ -429,10 +429,7 @@ public class Board {
             return false;
         }       
         //Verifica se há possibilidade de vitória com diagonal auxiliar.
-        if(!grannyDiagAux()){
-            return false;
-        }
-        return true;
+        return grannyDiagAux();
     }
     
     public void fillUp(){

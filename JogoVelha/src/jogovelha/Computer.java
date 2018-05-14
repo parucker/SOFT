@@ -22,12 +22,12 @@ public class Computer extends Player {
 
     @Override
     public void play(Board board) {
-        Try(board);
+        tentativa(board);
         board.setPosition(attempt, player);
     }
 
     @Override
-    public void Try(Board board) {
+    public void tentativa(Board board) {
         int flag = 0;
         while (flag == 0) {
             if (umaPosicaoVit(board)) {

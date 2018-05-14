@@ -25,7 +25,7 @@ public class TicTacToe {
         board = new Board();
         startPlayers();
         
-        while( Play() );
+        while( play() );
     }
     
     public void startPlayers(){
@@ -61,7 +61,7 @@ public class TicTacToe {
         return option;
     }
     
-    public boolean Play(){
+    public boolean play(){
         board.showBoard();
         //board.displayRound();
         //System.out.printf("\nLast spot: %d, %d", board.getX(), board.getY());

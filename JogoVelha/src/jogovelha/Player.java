@@ -22,13 +22,10 @@ public abstract class Player {
     
     public abstract void play(Board board);
     
-    public abstract void Try(Board board);
+    public abstract void tentativa(Board board);
 
     public boolean checkTry(int[] attempt, Board board){
-        if(board.getPosition(attempt) == 0)
-            return true;
-        return false;
-            
+        return board.getPosition(attempt) == 0;           
     }
     
 }

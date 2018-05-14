@@ -23,12 +23,12 @@ public class Human extends Player{
     
     @Override
     public void play(Board board){
-        Try(board);
+        tentativa(board);
         board.setPosition(attempt, player);
     }
     
     @Override
-    public void Try(Board board){
+    public void tentativa(Board board){
         do{
             do{
                 System.out.print("Line: ");
