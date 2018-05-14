@@ -1,4 +1,4 @@
-package TesteVelha;
+package testevelha;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -6,7 +6,7 @@ package TesteVelha;
  * and open the template in the editor.
  */
 
-import JogoVelhaMito.Board;
+import jogovelha.Board;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -18,9 +18,6 @@ import static org.junit.Assert.*;
  */
 public class BoardTest {
     
-    public BoardTest() {
-    }
-
     @Test
     public void testCheckGranny() {
         Board board = new Board();
